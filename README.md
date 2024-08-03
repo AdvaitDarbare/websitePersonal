@@ -12,6 +12,7 @@ The live version of the website is available at: [https://advaitdarbare.github.i
 - **About Section**: Brief description about myself and my goals.
 - **Skills Section**: List of my technical skills and certifications.
 - **Work Experience Section**: Details of my professional experience and internships.
+- **Projects Section**: Details of my projects.
 
 ## Directory Structure
 
