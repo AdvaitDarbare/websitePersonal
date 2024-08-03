@@ -9,7 +9,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    
     <style>
       #introText {
           font-size: 1.5rem;
@@ -25,6 +24,7 @@
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#work">Work Experience</a>
+        <a href="#projects">Projects</a>
       </div>
     </nav>
     <section id="home" class="hero">
@@ -69,14 +69,9 @@
         <h2>Skills</h2>
         <ul>
             <li><strong>Programming Languages:</strong> Java, C, C++, Python, SQL, HTML, CSS, JavaScript</li>
-            <li><strong>Data Processing:</strong> PySpark, NumPy, Pandas</li>
-            <li><strong>Data Visualization:</strong> Matplotlib</li>
-            <li><strong>Machine Learning:</strong> Scikit-learn</li>
-            <li><strong>Databases:</strong> PostgreSQL</li>
-            <li><strong>Software Development Techniques:</strong> OOP, Data Structures, UML</li>
-            <li><strong>Version Control:</strong> Git</li>
-            <li><strong>Certifications:</strong> AWS Cloud Practitioner</li>
-
+            <li><strong>Frameworks and Libraries:</strong> Spring Boot, NodeJS, GraphQL, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Tensorflow, PySpark</li>
+            <li><strong>Tools and Techniques:</strong> MySQL, MongoDB, Postman, Git, AWS (EC2, Elastic Beanstalk, RDS, Parameter Store, VPC, Route 53), Unified Modeling Language, RESTful API Development, Agile Methodologies, Databricks</li>
+            <li><strong>Certifications:</strong> AWS Certified Cloud Practitioner</li>
         </ul>
       </div>
     </section>
@@ -84,16 +79,63 @@
     <section id="work" class="work">
       <div class="work-container">
         <h2>Work Experience</h2>
-        <h3>Prophecy - Palo Alto, CA</h3>
-        <ul style="list-style-type:square">
+        
+        <div class="job">
+          <h3>Acceldata, Campbell, CA:  Marketing Intern</h3>
+          <ul>
+            <li>Analyzed research papers on data quality and machine learning model performance, summarizing key findings for internal use.</li>
+            <li>Created detailed reports and presentations, aiding the development of blog content and marketing materials to promote Acceldata’s data observability tools and services.</li>
+            <li>Collaborated with cross-functional teams to compile and assess data quality metrics, underscoring the significance of data observability in reducing model retraining costs.</li>    
+          </ul>
+        </div>
+    
+        <div class="job">
+          <h3>Prophecy, Palo Alto, CA:  Software Engineer Intern</h3>
+          <ul>
             <li>Built and integrated components such as vector assembler, data splitting, model training, predictions, and evaluations using PySpark for a linear regression pipeline.</li>
             <li>Developed a Word2Vec component using PySpark for the Prophecy Platform, enhancing NLP capabilities by tokenizing text data and generating token embeddings, allowing for effective data analysis.</li>
             <li>Built a component for sourcing data from Hugging Face.</li>
             <li>Utilized TPC-H benchmark to construct 22 data pipelines leveraging Prophecy's low-code platform, emphasizing its efficiency for data transformation.</li>    
-        </ul>
+          </ul>
+        </div>
+    
+        <div class="job">
+          <h3>Splash Swim School, San Ramon, CA:  Swim Instructor</h3>
+          <ul>
+            <li>Taught swimming lessons to children aged 6 months to 13 years, conducted evaluations, provided feedback to parents/guardians, and trained new instructors on effective teaching methods and water safety procedures, ensuring a supportive and knowledgeable environment.</li>    
+          </ul>
+        </div>
       </div>
     </section>
+    
 
+    <section id="projects" class="projects">
+      <div class="projects-container">
+        <h2>Projects</h2>
+        
+        <div class="project">
+          <h3>Job Web Portal Application</h3>
+          <p>
+            Developed an end-to-end job portal web application utilizing Spring Boot 3 for backend services, Spring MVC for handling web requests, Thymeleaf for dynamic web page rendering, Spring Security for user authentication and authorization, and managed database operations with Spring Data JPA, Hibernate, and MySQL. Implemented RESTful APIs for efficient client-server communication. Deployed the application using AWS services, including EC2, Elastic Beanstalk, RDS, Parameter Store, and VPC. Employed IntelliJ and Maven for project management, and used Git for version control.
+          </p>
+          <p>
+            <a href="https://github.com/AdvaitDarbare/job-portal-web-application" target="_blank">Check out this GitHub repo</a>
+          </p>
+        </div>
+        
+        <div class="project">
+          <h3>Machine Learning Projects</h3>
+          <p>
+            Built a pipeline to predict heart disease using Logistic Regression, KNN, and Random Forest, covering data preprocessing, model evaluation, and deployment. Created an Artificial Neural Network with TensorFlow 2.0 to classify handwritten digits (0-9) from the MNIST dataset, including model building, training, and evaluation. Applied K-means clustering for exploratory data analysis and unsupervised learning on the MNIST dataset. Developed a Convolutional Neural Network (CNN) using TensorFlow and Keras to classify images from the CIFAR-10 dataset, focusing on model building, training, and performance visualization. Implemented a Naive Bayes classifier to categorize product reviews as positive or negative based on textual data.
+          </p>
+          <p>
+            <a href="https://github.com/AdvaitDarbare/websitePersonal" target="_blank">Check out this GitHub repo</a>
+          </p>
+        </div>
+        
+      </div>
+    </section>
+    
     <script src="script.js"></script>
   </body>
 </html>
