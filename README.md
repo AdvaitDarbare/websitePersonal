@@ -28,24 +28,6 @@ websitePersonal/
 └── .gitignore
 
 
-## Getting Started
-
-To run this project locally:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/AdvaitDarbare/websitePersonal.git
-    ```
-
-2. **Navigate to the project directory**:
-    ```bash
-    cd websitePersonal
-    ```
-
-3. **Open `index.html` in your browser**:
-    - You can simply double-click the `index.html` file, or
-    - Use a live server extension in your code editor (such as the Live Server extension in VS Code).
-
 ## Technologies Used
 
 - **HTML5**: Structure of the website.
@@ -53,24 +35,6 @@ To run this project locally:
 - **JavaScript**: Interactivity and dynamic content.
 - **Font Awesome**: Icons for social media links.
 - **GitHub Pages**: Hosting the website.
-
-## How to Contribute
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3. **Make your changes**.
-4. **Commit your changes**:
-    ```bash
-    git commit -m "Add some feature"
-    ```
-5. **Push to the branch**:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-6. **Create a new Pull Request**.
 
 ## Contact
 
